@@ -1,7 +1,8 @@
 console.time("prime");
+
 const prime = [2, 3];
+let l = 2;
 for (let i = 5; i < 1000000; i++) {
-  let l = prime.length;
   let possiblePrime = true;
 
   for (let j = 0; j < l; j++) {
@@ -11,6 +12,7 @@ for (let i = 5; i < 1000000; i++) {
   }
   if (possiblePrime) {
     prime.push(i);
+    l = l +1;
     console.log(i);
   }
 }
