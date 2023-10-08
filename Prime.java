@@ -1,4 +1,4 @@
-public class PrimeGenerator {
+public class Prime {
     public static boolean isPrime(int n) {
         if (n <= 1) {
             return false;
