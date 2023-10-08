@@ -17,7 +17,7 @@ def is_prime(n):
 start_time = time.time()
 
 primes = [2, 3]
-for i in range(5, 1000000):
+for i in range(5, 100):
     if is_prime(i):
         primes.append(i)
         print(i)
